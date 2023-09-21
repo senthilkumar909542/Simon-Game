@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background-color: #22668D;
+  background-color: #22668d;
   font-size: 1rem;
   font-family: "Courier New", Courier, monospace;
 }
@@ -9,8 +9,8 @@ body {
   --background-color: #ffd9b7;
   --button-background: #9ed2be;
   --button-font: black;
-  --start-button-color:#ffd9b7;
-  --start-button-background-color:#352F44;
+  --start-button-color: #ffd9b7;
+  --start-button-background-color: #352f44;
 }
 
 #level-title {
@@ -50,7 +50,6 @@ body {
 .button-box {
   position: absolute;
   margin-top: -80px;
-  
 }
 button {
   height: 80px;
