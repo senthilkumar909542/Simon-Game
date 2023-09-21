@@ -5,7 +5,8 @@
 
 <img>
 
-<img width="391" alt="image" src="https://github.com/senthilkumar909542/Simon-Game/assets/56290175/d78ab750-f543-48c3-8d9c-82b9d10bb824">
+
+<img width="338" alt="image" src="https://github.com/senthilkumar909542/Simon-Game/assets/56290175/49624489-f4c1-49e0-be36-561871999fdc">
 
 </img>
 
