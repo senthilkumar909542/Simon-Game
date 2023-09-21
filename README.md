@@ -4,21 +4,20 @@
 
 
 <img>
-<img width="412" alt="image" src="https://github.com/senthilkumar909542/Simon-Game/assets/56290175/b8aa7795-7aca-4efb-bf5e-a61973554718">
+
+<img width="391" alt="image" src="https://github.com/senthilkumar909542/Simon-Game/assets/56290175/d78ab750-f543-48c3-8d9c-82b9d10bb824">
 
 </img>
 
 <img>
 
-
-
-<img width="367" alt="image" src="https://github.com/senthilkumar909542/Simon-Game/assets/56290175/99a7aafb-5548-4a6b-a4af-83ac5577e5bb">
+<img width="316" alt="image" src="https://github.com/senthilkumar909542/Simon-Game/assets/56290175/607e9504-6c52-4c77-af8a-9a5b81507af3">
 
 <img>
 
 
 <img>
 
-<img width="359" alt="image" src="https://github.com/senthilkumar909542/Simon-Game/assets/56290175/db82b48e-fc49-498b-943e-20610ad4ef02">
+<img width="348" alt="image" src="https://github.com/senthilkumar909542/Simon-Game/assets/56290175/12b2848c-da1b-4ae0-a9fe-faa550a7b10e">
 
 </img>
