@@ -25,11 +25,13 @@ $(".button-box>button").click((event) => {
 
     let element = document.getElementById("s");
     let len = element.classList.length;
-    if (len == 0) {
+    if (len == 0 && flag === 0) {
+        document.getElementById("level-title").innerHTML = "Simon Game";
         element.innerHTML = "Restart";
         element.classList.add("restart");
         start();
     } else {
+        document.getElementById("level-title").innerHTML = "Simon Game";
         element.innerHTML = "Start";
         element.classList.remove("restart");
         reset();
@@ -49,7 +51,6 @@ function start() {
 }
 
 function next_sequence() {
-
     random_number = Math.floor(Math.random() * 4);
     $("#" + color[random_number]).fadeIn(100).fadeOut(100).fadeIn(100);
     random_pattern.push(color[random_number]);
@@ -57,12 +58,15 @@ function next_sequence() {
     sound(color[random_number]);
 };
 
+
 $(".btn").click(function () {
-    console.log(this.id);
-    user_pattern.push(this.id);  // $(this).attr("id");
-    animatePress($(this).attr("id"));
-    sound(this.id);
-    check();
+    if (document.getElementById("s").classList.length != 0) {
+        console.log(this.id);
+        user_pattern.push(this.id);  // $(this).attr("id");
+        animatePress($(this).attr("id"));
+        sound(this.id);
+        check();
+    }
 });
 
 function animatePress(currentColor) {
@@ -95,8 +99,10 @@ function check() {
         level = 0;
         $("#level-2-title").text("Game Over");
         let element = document.getElementById("s");
-        element.innerHTML = "Start";
-        element.classList.remove("restart");
+        element.innerHTML = "Restart";
+        element.classList.add("restart");
+        document.getElementById("level-title").innerHTML = "Press Restart";
+
         animatePress("wrong");
         sound("wrong");
         flag = 0;
